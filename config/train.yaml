@@ -1,0 +1,35 @@
+# data config
+dataset: data/biography_synthetic.csv
+max_token_length: 1024
+
+# model config
+model: /ssd/common/LLMs/Meta-Llama-3-8B
+
+quant:
+  load_in_8bit: True
+
+lora:
+  r: 16
+  lora_alpha: 16
+  lora_dropout: 0.0
+  target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - down_proj
+  - up_proj
+  task_type: CAUSAL_LM
+
+# trainer config
+batch_size: 8
+accumulate_grad_batches: 1
+max_epochs: 20
+lr: 5e-4
+warmup_ratio: 0.1
+scheduler: linear
+gradient_clip_val: 1.0
+
+# global config
+seed: 1

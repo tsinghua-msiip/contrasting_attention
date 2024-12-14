@@ -1,0 +1,11 @@
+field,prompt
+"date","What is the birth date of {name}?
+Answer:"
+"city","What is the birth city of {name}?
+Answer:"
+"major","Which major did {name} study?
+Answer:"
+"university","Which university did {name} attend?
+Answer:"
+"company","Which company did {name} work for?
+Answer:"

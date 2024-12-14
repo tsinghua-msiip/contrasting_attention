@@ -1,0 +1,17 @@
+# data config
+eval_data: data/biography_synthetic.csv
+fewshot_data: data/biography_real.csv
+prompt_data: data/prompts.csv
+
+# model config
+model: /ssd/common/LLMs/Meta-Llama-3-8B
+
+quant:
+  load_in_8bit: True
+
+# generation config
+batch_size: 8
+max_new_tokens: 10
+
+# global config
+seed: 1
