@@ -1,33 +1,21 @@
 # Enhancing elusive clues in knowledge learning by contrasting attention of language models
 
+```bash
 @article{Enhancing elusive clues in knowledge learning by contrasting attention of language models,
-
 author       = {Jian Gao and
-
 Xiao Zhang and
-
 Miao Li and
-
 Ji Wu},
-
 title        = {Enhancing elusive clues in knowledge learning by contrasting attention of language models},
-
 journal      = {AAAI},
-
 volume       = {abs/2409.17954},
-
 year         = {2025},
-
 url          = {[](https://arxiv.org/abs/2409.17954)},
-
 eprinttype   = {arXiv},
-
 eprint       = {2409.17954},
-
 timestamp    = {Thur, 26 Sep 2024 11:27:50 +0200},
-
 }
-
+```
 
 【Accepted】by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025)
 
