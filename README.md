@@ -1,6 +1,6 @@
 # Enhancing elusive clues in knowledge learning by contrasting attention of language models
 
-```bash
+```
 @article{Enhancing elusive clues in knowledge learning by contrasting attention of language models,
 author       = {Jian Gao and
 Xiao Zhang and
